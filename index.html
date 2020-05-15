@@ -8,5 +8,15 @@ This is testing
   <img src="https://whip-cloud-harmonica.glitch.me/new.svg"/>
 So this is somethign new
   Click here<a href="testing.html">Click me</a>
+  <script type="text/javascript">
+  fetch('https://stream-blue-anger.glitch.me/updatecounter', {
+        method: 'get'
+    })
+    .then(response => response.json())
+    .then(jsonData => console.log(jsonData))
+    .catch(err => {
+            //error block
+        }  
+  </script>
 </body>
 </html>
